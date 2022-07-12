@@ -1,0 +1,14 @@
+<div class="container-modal">
+
+  <header>header de todas as modais</header>
+  <!-- header que vem das outras modais -->
+  <ng-content select="[data-modal-header]"></ng-content>
+
+  <p>conteúdo que vai aparecer em todas as modais</p>
+  <!-- conteúdo que vai vir das outras modais -->
+  <ng-content select="[data-modal-content]"></ng-content>
+
+  <footer>footer que vai aparecer em todas as modais</footer>
+  <!-- footer que vai vir das outras modais -->
+  <ng-content select="[data-modal-footer]"></ng-content>
+</div>
